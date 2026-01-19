@@ -132,6 +132,76 @@ body {
 }
 
 
+/* POSITIONS
+- Static - Flow no HTML, não é alterado por top, left, right, bottom
+- Relative - Flow no HTML, e é alterada por top, left, right, botto
+- Absolute - Posiciona em qualquer lugar, e ela respeita o elemento do antecessor que esteja com relative
+- Fixed - Posiciona em ququer lugar da tela, mesmo com scroll
+- Sticky - Fica fixo quando chega em uma posição determinada
+*/
+
+.div-position {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+  border-bottom: 5px solid #000;
+
+}
+
+.static {
+  position: static;
+}
+
+.relative {
+  position: relative;
+  background-color: blue;
+  top: 100px;
+  left: 50px;
+}
+
+.absolute{
+  position: absolute;
+  background-color: purple;
+  right: 0;
+  top
+}
+
+.mini-div{
+  height: 100px;
+  width: 100px;
+  top: 50px;
+  left: 100px;
+}
+
+.fixed {
+  position: fixed;
+  height: 200px;
+  background-color: yellow;
+  bottom: 0;
+  right: 0;
+
+}
+
+.stick {
+  position: sticky;
+  background-color: gray;
+  top: 0px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
